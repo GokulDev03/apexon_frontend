@@ -104,7 +104,7 @@ export default function Projects() {
             </div>
 
             
-             <a  href="https://apexon-frontend.vercel.app/"
+             <a  href="https://mechanic-frontend-smoky.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-fit items-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:gap-3 hover:bg-brand-dark hover:shadow-md"
