@@ -5,6 +5,7 @@ import Stats from "@/sections/Stats";
 import WhyChooseUs from "@/sections/WhyChooseUs";
 import Testimonials from "@/sections/Testimonials";
 import CTA from "@/sections/CTA";
+import Projects from "@/sections/Projects";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HowItWorks />
       <Stats />
       <WhyChooseUs />
+       <Projects />
       <Testimonials />
       <CTA />
     </>

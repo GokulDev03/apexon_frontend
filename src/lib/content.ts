@@ -1,11 +1,11 @@
 import {
-  Globe,
+  LayoutTemplate,
   Smartphone,
   BrainCircuit,
-  PenTool,
-  Cloud,
-  Layers,
-  ShoppingBag,
+  Palette,
+  CloudCog,
+  Layers3,
+  ShoppingCart,
   Megaphone,
   MousePointerClick,
   ClipboardList,
@@ -73,7 +73,7 @@ export const SERVICES: Service[] = [
     tagline: "Fast, SEO-ready websites that convert visitors into customers.",
     description:
       "We design and build high-performance business websites on Next.js — optimised for speed, search rankings, and conversions. Every build includes responsive design, analytics, and a CMS you can update yourself.",
-    icon: Globe,
+    icon: LayoutTemplate,
     deliverables: [
       "Custom responsive design (mobile, tablet, desktop)",
       "SEO setup — meta tags, sitemap, structured data",
@@ -141,7 +141,7 @@ export const SERVICES: Service[] = [
     tagline: "Interfaces designed with intent — beautiful and conversion-focused.",
     description:
       "Research-driven product design: wireframes, high-fidelity UI, and clickable prototypes your developers can build from without guesswork.",
-    icon: PenTool,
+    icon: Palette,
     deliverables: [
       "User research & competitor audit",
       "Wireframes & user flows",
@@ -164,7 +164,7 @@ export const SERVICES: Service[] = [
     tagline: "Reliable AWS infrastructure that scales with your growth.",
     description:
       "Cloud architecture, migration, and DevOps done right — CI/CD pipelines, monitoring, and cost optimisation so your product stays fast and your bills stay low.",
-    icon: Cloud,
+    icon: CloudCog,
     deliverables: [
       "Cloud architecture design",
       "Migration & deployment",
@@ -187,7 +187,7 @@ export const SERVICES: Service[] = [
     tagline: "From idea to subscription revenue — complete SaaS builds.",
     description:
       "We build multi-tenant SaaS platforms end to end: auth, billing, dashboards, and admin — production-ready and built to scale from your first customer to your ten-thousandth.",
-    icon: Layers,
+    icon: LayoutTemplate,
     deliverables: [
       "Product scoping & architecture",
       "Multi-tenant application build",
@@ -210,7 +210,7 @@ export const SERVICES: Service[] = [
     tagline: "High-converting online stores with seamless checkout.",
     description:
       "Custom storefronts with lightning-fast product pages, payment gateways, inventory, and order management — everything you need to sell online professionally.",
-    icon: ShoppingBag,
+    icon: ShoppingCart,
     deliverables: [
       "Custom storefront design",
       "Payment gateway integration",
