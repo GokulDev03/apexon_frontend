@@ -8,7 +8,6 @@ import { Menu, X, Phone, Mail, Clock } from "lucide-react";
 import { NAV_LINKS, COMPANY } from "@/lib/content";
 import { useUi } from "@/store/ui-context";
 import { cn } from "@/utils/cn";
-import logoDark from "../../public/logo-dark.png";
 
 export default function Navbar() {
   const { menuOpen, setMenuOpen } = useUi();
@@ -51,8 +50,8 @@ export default function Navbar() {
           aria-label="Main navigation"
           className="container-x flex items-center justify-between py-3.5"
         >
-          <Link href="/" aria-label="Apexon — home" className="shrink-0">
-            <Image src={logoDark} alt="Apexon" priority className="h-8 w-auto md:h-9" />
+          <Link href="/" aria-label="Apexon Web Store — home" className="shrink-0 font-display text-xl font-bold tracking-tight text-brand-dark">
+            Apexon Web Store
           </Link>
 
           <ul className="hidden items-center gap-1 lg:flex">

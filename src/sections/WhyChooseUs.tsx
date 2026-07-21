@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
         <div>
           <SectionHeading
             align="left"
-            eyebrow="Why choose Apexon"
+            eyebrow="Why choose Apexon Web Store"
             title="A partner that works like"
             highlight="part of your team"
             subtitle="No hidden costs, no missed deadlines, no radio silence. Here's what every client gets, on every plan."

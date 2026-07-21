@@ -186,7 +186,6 @@ import {
 } from "lucide-react";
 import { NAV_LINKS, SERVICES, COMPANY } from "@/lib/content";
 import { subscribeNewsletter } from "@/services/contact";
-import logo from "../../public/logo.png";
 
 const SOCIALS = [
   { label: "Twitter / X", href: "#", icon: Twitter },
@@ -233,7 +232,9 @@ export default function Footer() {
           viewport={{ once: true, amount: 0.2 }}
           className="min-w-0"
         >
-          <Image src={logo} alt="Apexon" className="h-9 w-auto" />
+          <Link href="/" aria-label="Apexon Web Store — home" className="inline-block font-display text-xl font-bold tracking-tight text-white">
+            Apexon Web Store
+          </Link>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/70">
             We help startups and businesses build scalable websites, mobile
             apps, AI solutions, and enterprise software.
@@ -370,7 +371,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col items-center justify-between gap-3 py-6 text-center text-xs text-white/60 sm:flex-row sm:text-left">
-          <p>© {new Date().getFullYear()} Apexon. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Apexon Web Store. All rights reserved.</p>
           <p>GSTIN & MSME registered · Made in India 🇮🇳</p>
         </div>
       </div>

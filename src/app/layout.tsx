@@ -17,33 +17,33 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://apexon.dev"),
+  metadataBase: new URL("https://apexonwebstore.dev"),
   title: {
-    default: "Apexon — Book IT Services Online | Web, Mobile, AI & Cloud",
-    template: "%s · Apexon",
+    default: "Apexon Web Store — Book IT Services Online | Web, Mobile, AI & Cloud",
+    template: "%s · Apexon Web Store",
   },
   description:
-    "Apexon helps startups and businesses build scalable websites, mobile apps, AI solutions, and enterprise software. Transparent fixed-price plans — book online in minutes.",
+    "Apexon Web Store helps startups and businesses build scalable websites, mobile apps, AI solutions, and enterprise software. Transparent fixed-price plans — book online in minutes.",
   keywords: [
     "web development company",
     "mobile app development",
     "AI solutions",
     "SaaS development",
     "book IT services online",
-    "Apexon",
+    "Apexon Web Store",
   ],
   openGraph: {
-    title: "Apexon — Book IT Services Online",
+    title: "Apexon Web Store — Book IT Services Online",
     description:
       "Websites, mobile apps, AI, and cloud — transparent fixed-price plans you can book online.",
-    url: "https://apexon.dev",
-    siteName: "Apexon",
+    url: "https://apexonwebstore.dev",
+    siteName: "Apexon Web Store",
     type: "website",
-    images: [{ url: "/logo-full.png", width: 1100, height: 420, alt: "Apexon" }],
+    images: [{ url: "/logo-full.png", width: 1100, height: 420, alt: "Apexon Web Store" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apexon — Book IT Services Online",
+    title: "Apexon Web Store — Book IT Services Online",
     description:
       "Websites, mobile apps, AI, and cloud — fixed-price plans you can book online.",
     images: ["/logo-full.png"],

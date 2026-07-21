@@ -5,7 +5,7 @@ import { SERVICES } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Services & Pricing",
   description:
-    "Browse Apexon's IT services with transparent fixed-price plans — website development, mobile apps, AI, cloud, SaaS, e-commerce, and marketing.",
+    "Browse Apexon Web Store's IT services with transparent fixed-price plans — website development, mobile apps, AI, cloud, SaaS, e-commerce, and marketing.",
 };
 
 export default function ServicesPage() {

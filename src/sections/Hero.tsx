@@ -255,7 +255,7 @@ export default function Hero() {
 //             custom={2}
 //             className="mt-6 max-w-xl text-base leading-relaxed text-[#0F172A]/70 md:text-lg"
 //           >
-//             Apexon engineers high-performance websites, scalable web applications, 
+//             Apexon Web Store engineers high-performance websites, scalable web applications, 
 //             seamless mobile apps, advanced AI solutions, tailored SEO strategy, premium UI/UX, 
 //             and enterprise software built to drive absolute business growth.
 //           </motion.p>
@@ -341,12 +341,12 @@ export default function Hero() {
 //                   <div className="w-2 h-2 rounded-full bg-yellow-400" />
 //                   <div className="w-2 h-2 rounded-full bg-green-400" />
 //                   <div className="h-4 bg-white/80 rounded w-40 mx-auto border border-[#0F172A]/5 text-[9px] flex items-center justify-center text-[#0F172A]/40">
-//                     apexon.io/dashboard
+//                     apexonwebstore.dev/dashboard
 //                   </div>
 //                 </div>
 //                 <div className="flex-1 bg-slate-50 p-3 grid grid-cols-12 gap-2 text-[10px]">
 //                   <aside className="col-span-3 border-r border-[#0F172A]/5 pr-1 space-y-1">
-//                     <div className="h-3 w-12 bg-[#F97316]/10 rounded font-bold text-[#F97316] text-[8px] flex items-center px-1 mb-2">APEXON</div>
+//                     <div className="h-3 w-20 bg-[#F97316]/10 rounded font-bold text-[#F97316] text-[6px] flex items-center px-1 mb-2">APEXON WEB STORE</div>
 //                     <div className="h-3 bg-[#EEF5FF] rounded" />
 //                     <div className="h-3 bg-transparent rounded" />
 //                     <div className="h-3 bg-transparent rounded" />
@@ -379,7 +379,7 @@ export default function Hero() {
 //                   <div className="w-12 h-2.5 bg-[#0F172A] rounded-b-md" />
 //                 </div>
 //                 <div className="flex-1 bg-gradient-to-b from-[#EEF5FF] to-white p-2">
-//                   <div className="text-[7px] font-bold text-[#F97316]">APEXON</div>
+//                   <div className="text-[5px] font-bold text-[#F97316]">APEXON WEB STORE</div>
 //                   <div className="text-[9px] font-extrabold text-[#0F172A] mt-1 leading-none">Scalable Web Apps</div>
 //                   <div className="w-full h-12 bg-[#0F172A] rounded-md mt-2 p-1 text-[5px] text-white">
 //                     UI Design System

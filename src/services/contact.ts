@@ -24,7 +24,7 @@ async function post<T>(path: string, body: unknown): Promise<ApiResult<T>> {
     const data = await res.json().catch(() => ({}));
     return { ok: res.ok, message: data?.message, data: data?.data };
   } catch {
-    console.warn(`[apexon] API unreachable at ${API_URL}${path}`);
+    console.warn(`[apexon web store] API unreachable at ${API_URL}${path}`);
     return { ok: true, offline: true };
   }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "apexon",
+  "name": "apexon-web-store",
   "version": "1.0.0",
   "private": true,
-  "description": "Apexon — premium landing page. Building digital products that shape the future.",
+  "description": "Apexon Web Store — premium landing page. Building digital products that shape the future.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

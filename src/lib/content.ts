@@ -15,9 +15,9 @@ import {
 import type { NavLink, Service, Step, Stat, Testimonial } from "@/types";
 
 export const COMPANY = {
-  name: "Apexon",
+  name: "Apexon Web Store",
   phone: "+91 9025649921",
-  email: "apexon.development@gmail.com",
+  email: "apexonwebstore.development@gmail.com",
   address: "Chennai · Bengaluru · Remote",
   hours: "Mon–Sat, 9:30 AM – 7:00 PM IST",
 };
